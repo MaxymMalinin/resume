@@ -1,0 +1,64 @@
+body {
+    background-color: #f5f7fa;
+    font-family: "Montserrat", sans-serif;
+}
+
+.all {
+    margin: 0 auto;
+    background-color: white;
+    width: 1000px;
+    height: 1000px;
+    box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
+}
+
+.all::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.my-photo {
+    float: left;
+    width: 350px;
+    margin: 40px 30px 0 30px;
+}
+
+.language {
+    float: right;
+    margin: 20px;
+    border: none;
+    color: white;
+    background-color: steelblue;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.job-ex-element {
+    margin: 8px auto;
+}
+
+.study {
+    padding-left: 30px;
+}
+
+.study-element {
+    margin: 8px 0 8px -40px;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.contacts-list {
+    padding: 0;
+    display: flex;
+}
+
+.contacts-eltment {
+    margin: 8px auto;
+    list-style-type: none;
+}
